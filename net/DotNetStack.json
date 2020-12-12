@@ -1,0 +1,1661 @@
+﻿{
+  "name": ".NET",
+  "url": "http://www.microsoft.com/net",
+  "children": [
+    {
+      "name": "Common Language Infrastructure (CLI)"
+    },
+    {
+      "name": "Common Language Runtime (CLR)",
+      "children": [
+        {
+          "name": "Just-In-Time (JIT)"
+        },
+        {
+          "name": "Garbage Collector (GC)",
+          "children": [
+            {
+              "name": "Object Pinning"
+            },
+            {
+              "name": "Generations",
+              "children": [
+                {
+                  "name": "Gen 0"
+                },
+                {
+                  "name": "Gen 1"
+                },
+                {
+                  "name": "Gen 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Memory Management",
+          "children": [
+            {
+              "name": "Stack"
+            },
+            {
+              "name": "Managed Heap",
+              "children": [
+                {
+                  "name": "Large Object Heap"
+                },
+                {
+                  "name": "Fragmentation"
+                },
+                {
+                  "name": "Compaction"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Security"
+        }
+      ]
+    },
+    {
+      "name": "Common Type System (CTS)"
+    },
+    {
+      "name": "Common Language Specification (CLS)"
+    },
+    {
+      "name": "Common Intermediate Language (CIL)"
+    },
+    {
+      "name": ".NET Frameworks",
+      "children": [
+        {
+          "name": ".NET Framework",
+          "children": [
+            {
+              "name": "1.0(2002-02-13)"
+            },
+            {
+              "name": "2.0(2004-07-03)",
+              "children": [
+                {
+                  "name": "Generics"
+                }
+              ]
+            },
+            {
+              "name": "3.0(2007-01-30)",
+              "children": [
+                {
+                  "name": "WPF(Windows Presentation Foundation)"
+                },
+                {
+                  "name": "WCF(Windows Communication Foundation)"
+                },
+                {
+                  "name": "WF(Workflow Foundation)"
+                }
+              ]
+            },
+            {
+              "name": "3.5(2008-11-18~2028-10-10)",
+              "children": [
+                {
+                  "name": "LINQ"
+                }
+              ]
+            },
+            {
+              "name": "4.0(2010-04-12~2016-01-12)",
+              "children": [
+                {
+                  "name": "PLINQ"
+                },
+                {
+                  "name": "TPL"
+                },
+                {
+                  "name": "Dynamic Types"
+                }
+              ]
+            },
+            {
+              "name": "4.5(2012-08-15~2016-01-12)",
+              "children": [
+                {
+                  "name": "Modern UI"
+                },
+                {
+                  "name": "async/await"
+                },
+                {
+                  "name": "MEF",
+                  "url": "https://docs.microsoft.com/en-us/dotnet/framework/mef/"
+                }
+              ]
+            },
+            {
+              "name": "4.5.1(2013-10-17~2016-01-12)"
+            },
+            {
+              "name": "4.5.2(2014-05-05~)"
+            },
+            {
+              "name": "4.6(2015-07-20~)",
+              "children": [
+                {
+                  "name": "HTTP/2 Support"
+                },
+                {
+                  "name": "Token Binding Protocol"
+                },
+                {
+                  "name": "WWF(Windows Workflow Foundation)"
+                }
+              ]
+            },
+            {
+              "name": "4.6.1(2015-11-30~)"
+            },
+            {
+              "name": "4.6.2(2016-08-02~)"
+            },
+            {
+              "name": "4.7(2017-04-05~)",
+              "children": [
+                {
+                  "name": "Object Cache Extensibility"
+                }
+              ]
+            },
+            {
+              "name": "4.7.1(2017-10-17~)"
+            },
+            {
+              "name": "4.7.2(2018-04-30~)"
+            },
+            {
+              "name": "4.8(2019-04-18~)"
+            }
+          ]
+        },
+        {
+          "name": ".NET Core",
+          "children": [
+            {
+              "name": "1.0(2016-06-27~2019-06-27)"
+            },
+            {
+              "name": "1.1(2016-11-16~2019-06-27)"
+            },
+            {
+              "name": "2.0(2017-08-14~2018-10-01)",
+              "children": [
+                {
+                  "name": "Visual Basic"
+                },
+                {
+                  "name": "C# 7.1"
+                },
+                {
+                  "name":".NET Standard 2.0"
+                },
+                {
+                  "name":"dotnet [new|run|build|publish|pack|test]"
+                }
+              ]
+            },
+            {
+              "name": "2.1(2018-05-30~2021-08-21)",
+              "children":[
+                {
+                  "name":"dotnet [watch|dev-certs|user-secrets|sql-cache|ef]"
+                },
+                {
+                  "name":"dotnet tool [install|update|list|uninstall] (-g test)"
+                },
+                {
+                  "name":"API changes",
+                  "children":[
+                    {
+                      "name":"Span<T> and ReadOnlySpan<T>"
+                    },
+                    {
+                      "name":"Memory<T> and ReadOnlyMemory<T>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "2.2(2018-12-04~2019-12-23)"
+            },
+            {
+              "name": "3.0(2019-09-23~2020-03-03)",
+              "children":[
+                {
+                  "name":"C# 8.0"
+                },
+                {
+                  "name":"F# 4.7"
+                },
+                {
+                  "name":".NET Standard 2.1"
+                },
+                {
+                  "name":"Windows",
+                  "children":[
+                    {
+                      "name":"Windows desktop",
+                      "children":[
+                        {
+                          "name":"dotnet new wpf"
+                        },
+                        {
+                          "name":"dotnet new winforms"
+                        }
+                      ]
+                    },
+                    {
+                      "name":"COM-callable managed components"
+                    },
+                    {
+                      "name":"CoCreate COM APIs and Activate WinRT APIs"
+                    }
+                  ]
+                },
+                {
+                  "name":"Linux",
+                  "children":[
+                    {
+                      "name":"SerialPort"
+                    },
+                    {
+                      "name":"Docker and cgroup memory Limits"
+                    },
+                    {
+                      "name":"GPIO Support for Raspberry Pi"
+                    },
+                    {
+                      "name":"ARM64 Linux support"
+                    }
+                  ]
+                },
+                {
+                  "name":"Ranges and indices"
+                },
+                {
+                  "name":"Async streams"
+                },
+                {
+                  "name":"IEEE Floating-point"
+                },
+                {
+                  "name":"Fast built-in JSON support"
+                },
+                {
+                  "name":"HTTP/2 Support"
+                }
+              ]
+            },
+            {
+              "name": "3.1(2019-12-03~2022-12-03)",
+              "children":[
+                {
+                  "name":"C++/CLI"
+                }
+              ]
+            },
+            {
+              "name": ".NET 5(2020-09-14~)"
+            }
+          ]
+        },
+        {
+          "name": "Mono"
+        },
+        {
+          "name": "DNX (.NET Execution Environment)"
+        },
+        {
+          "name": ".NET Micro Framework (MF)"
+        },
+        {
+          "name": ".NET Compact Framework (CF)"
+        }
+      ]
+    },
+    {
+      "name": "Base Class Library (BCL)",
+      "children": [
+        {
+          "name": "System Types"
+        },
+        {
+          "name": "Collections"
+        },
+        {
+          "name": "Diagnostics"
+        },
+        {
+          "name": "Globalization"
+        },
+        {
+          "name": "IO"
+        },
+        {
+          "name": "Security"
+        },
+        {
+          "name": "Threading"
+        },
+        {
+          "name": "Text"
+        }
+      ]
+    },
+    {
+      "name": "Runtime Infrastructure Library (RIL)",
+      "children": [
+        {
+          "name": "System",
+          "children": [
+            {
+              "name": "App Domain"
+            },
+            {
+              "name": "Pointers"
+            },
+            {
+              "name": "Handles"
+            }
+          ]
+        },
+        {
+          "name": "Reflection"
+        }
+      ]
+    },
+    {
+      "name": "Framework Class Library (FCL)",
+      "children": [
+        {
+          "name": "ADO.NET"
+        },
+        {
+          "name": "XML"
+        },
+        {
+          "name": "Net"
+        },
+        {
+          "name": "Drawing"
+        },
+        {
+          "name": "LINQ",
+          "children": [
+            {
+              "name": "Parallel LINQ (PLINQ)"
+            }
+          ]
+        },
+        {
+          "name": "Interoperability (InterOp)",
+          "children": [
+            {
+              "name": "Platform Invoke (P/Invoke)"
+            }
+          ]
+        },
+        {
+          "name": "Task Parallel Library (TPL)"
+        },
+        {
+          "name": "Serialization"
+        }
+      ]
+    },
+    {
+      "name": "Core Concepts",
+      "children": [
+        {
+          "name": "App Domain"
+        },
+        {
+          "name": "Assembly"
+        },
+        {
+          "name": "Namespace"
+        },
+        {
+          "name": "Code Access Security (CAS)"
+        },
+        {
+          "name": "Generics"
+        },
+        {
+          "name": "Global Assembly Cache (GAC)"
+        },
+        {
+          "name": "Strong Name"
+        },
+        {
+          "name": "Weak Reference"
+        },
+        {
+          "name": "Event Model"
+        },
+        {
+          "name": "Tasked Based Async Model",
+          "children": [
+            {
+              "name": "async/await"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Core Features",
+      "children": [
+        {
+          "name": "Language independence"
+        },
+        {
+          "name": "Interoperability"
+        },
+        {
+          "name": "Portability"
+        }
+      ]
+    },
+    {
+      "name": "Core Objects",
+      "children": [
+        {
+          "name": "Class"
+        },
+        {
+          "name": "Function"
+        },
+        {
+          "name": "Property"
+        },
+        {
+          "name": "Field"
+        },
+        {
+          "name": "Event"
+        },
+        {
+          "name": "Types",
+          "children": [
+            {
+              "name": "Reference Types"
+            },
+            {
+              "name": "Values Types"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CLI Languages",
+      "children": [
+        {
+          "name": "C#",
+          "url": "https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx",
+          "children": [
+            {
+              "name": "1.0(2002.1/.NET Framework 1.0/Visual Studio .NET 2002)",
+              "children": [
+                {
+                  "name": "Classes"
+                },
+                {
+                  "name": "Structs"
+                },
+                {
+                  "name": "Interfaces"
+                },
+                {
+                  "name": "Events"
+                },
+                {
+                  "name": "Properties"
+                },
+                {
+                  "name": "Delegates"
+                },
+                {
+                  "name": "Expressions,Statements,Operators"
+                },
+                {
+                  "name": "Attributes"
+                },
+                {
+                  "name": "Literals"
+                }
+              ]
+            },
+            {
+              "name": "1.2(2003.4/.NET Framework 1.1/Visual Studio .NET 2003)"
+            },
+            {
+              "name": "2.0(2005.11/.NET Framework 2.0/Visual Studio 2005)",
+              "children": [
+                {
+                  "name": "Generics"
+                },
+                {
+                  "name": "Partial types"
+                },
+                {
+                  "name": "Anonymous methods"
+                },
+                {
+                  "name": "Nullable value types"
+                },
+                {
+                  "name": "Iterators"
+                },
+                {
+                  "name": "Getter/setter separate accessibility"
+                },
+                {
+                  "name": "Method group conversions (delegates)"
+                },
+                {
+                  "name": "Covariance and contravariance for delegates and interfaces"
+                },
+                {
+                  "name": "Static classes"
+                },
+                {
+                  "name": "Delegate inference"
+                }
+              ]
+            },
+            {
+              "name": "3.0(2007.11/.NET Framework 2.0\\3.0\\3.5/Visual Studio 2008)",
+              "children": [
+                {
+                  "name": "Auto-implemented properties"
+                },
+                {
+                  "name": "Anonymous types"
+                },
+                {
+                  "name": "Query expressions"
+                },
+                {
+                  "name": "Lambda expressions"
+                },
+                {
+                  "name": "Expression trees"
+                },
+                {
+                  "name": "Extension methods"
+                },
+                {
+                  "name": "Implicitly typed local variables"
+                },
+                {
+                  "name": "Partial methods"
+                },
+                {
+                  "name": "Object and collection initializers"
+                }
+              ]
+            },
+            {
+              "name": "4.0(2010.4/.NET Framework 4.0/Visual Studio 2010)",
+              "children": [
+                {
+                  "name": "Dynamic binding"
+                },
+                {
+                  "name": "Named/optional arguments"
+                },
+                {
+                  "name": "Generic covariant and contravariant"
+                },
+                {
+                  "name": "Embedded interop types"
+                }
+              ]
+            },
+            {
+              "name": "5.0(2012.8/.NET Framework 4.5/Visual Studio 2012\\2013)",
+              "children": [
+                {
+                  "name": "Asynchronous members"
+                },
+                {
+                  "name": "Caller info attributes"
+                }
+              ]
+            },
+            {
+              "name": "6.0(2015.7/.NET Framework 4.6/Visual Studio 2015)",
+              "children": [
+                {
+                  "name": "Static imports(Import of static type members into namespace)"
+                },
+                {
+                  "name": "Exception filters"
+                },
+                {
+                  "name": "Auto-property initializers"
+                },
+                {
+                  "name": "Expression bodied members"
+                },
+                {
+                  "name": "Null propagator(null-conditional operator, succinct null checking)"
+                },
+                {
+                  "name": "String interpolation"
+                },
+                {
+                  "name": "nameof operator"
+                },
+                {
+                  "name": "Index initializers"
+                },
+                {
+                  "name": "Await in catch/finally blocks"
+                },
+                {
+                  "name": "Default values for getter-only properties"
+                },
+                {
+                  "name": "Compiler-as-a-service (Roslyn)"
+                }
+              ]
+            },
+            {
+              "name": "7.0(2017.3/.NET Framework 4.6.2/Visual Studio 2017)",
+              "children": [
+                {
+                  "name": "Out variables"
+                },
+                {
+                  "name": "Tuples and deconstruction"
+                },
+                {
+                  "name": "Pattern matching"
+                },
+                {
+                  "name": "Local functions"
+                },
+                {
+                  "name": "Expanded expression bodied members"
+                },
+                {
+                  "name": "Ref locals and returns"
+                },
+                {
+                  "name": "Discards"
+                },
+                {
+                  "name": "Binary Literals and Digit Separators"
+                },
+                {
+                  "name": "Throw expressions"
+                },
+                {
+                  "name": "Generalized async return types"
+                }
+              ]
+            },
+            {
+              "name": "7.1(2017.6/.NET Framework/Visual Studio 2017 v15.3)",
+              "children": [
+                {
+                  "name": "async Main method"
+                },
+                {
+                  "name": "default literal expressions"
+                },
+                {
+                  "name": "Inferred tuple element names"
+                },
+                {
+                  "name": "Pattern matching on generic type parameters"
+                },
+                {
+                  "name": "reference assembly generation"
+                }
+              ]
+            },
+            {
+              "name": "7.2",
+              "children": [
+                {
+                  "name": "Techniques for writing safe efficient code"
+                },
+                {
+                  "name": "Non-trailing named arguments",
+                  "url": "https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-7-2#non-trailing-named-arguments"
+                },
+                {
+                  "name": "Leading underscores in numeric literals"
+                },
+                {
+                  "name": "private protected access modifier"
+                },
+                {
+                  "name": "Conditional ref expressions"
+                }
+              ]
+            },
+            {
+              "name": "7.3",
+              "children": [
+                {
+                  "name": "access fixed fields without pinning"
+                },
+                {
+                  "name": "reassign ref local variables"
+                },
+                {
+                  "name": "use initializers on stackalloc arrays"
+                },
+                {
+                  "name": "use fixed statements with any type that supports a pattern"
+                },
+                {
+                  "name": "use additional generic constraints"
+                }
+              ]
+            },
+            {
+              "name": "8.0(/.NET Framework 4.7.1/.NET Core 3.x and .NET Standard 2.1/Visual Studio 2017 v15.7)",
+              "children": [
+                {
+                  "name": "Readonly members"
+                },
+                {
+                  "name": "Default interface methods"
+                },
+                {
+                  "name": "Pattern matching enhancements",
+                  "children": [
+                    {
+                      "name": "Switch expressions"
+                    },
+                    {
+                      "name": "Property patterns"
+                    },
+                    {
+                      "name": "Tuple patterns"
+                    },
+                    {
+                      "name": "Positional patterns"
+                    }
+                  ]
+                },
+                {
+                  "name": "Using declarations"
+                },
+                {
+                  "name": "Static local functions"
+                },
+                {
+                  "name": "Disposable ref structs"
+                },
+                {
+                  "name": "Nullable reference types"
+                },
+                {
+                  "name": "Asynchronous streams and disposable"
+                },
+                {
+                  "name": "Indices and ranges"
+                },
+                {
+                  "name": "Null-coalescing assignment"
+                },
+                {
+                  "name": "Unmanaged constructed types"
+                },
+                {
+                  "name": "Stackalloc in nested expressions"
+                },
+                {
+                  "name": "Enhancement of interpolated verbatim strings"
+                }
+              ]
+            },
+            {
+              "name": "9.0(2020.11/.NET 5)",
+              "children": [
+                {
+                  "name": "Records"
+                },
+                {
+                  "name": "Init only setters"
+                },
+                {
+                  "name": "Top-level statements"
+                },
+                {
+                  "name": "Pattern matching enhancements"
+                },
+                {
+                  "name": "Native sized integers"
+                },
+                {
+                  "name": "Function pointers"
+                },
+                {
+                  "name": "Suppress emitting localsinit flag"
+                },
+                {
+                  "name": "Target-typed new expressions"
+                },
+                {
+                  "name": "static anonymous functions"
+                },
+                {
+                  "name": "Target-typed conditional expressions"
+                },
+                {
+                  "name": "Covariant return types"
+                },
+                {
+                  "name": "Extension GetEnumerator support for foreach loops"
+                },
+                {
+                  "name": "Lambda discard parameters"
+                },
+                {
+                  "name": "Attributes on local functions"
+                },
+                {
+                  "name": "Module initializers"
+                },
+                {
+                  "name": "New features for partial methods"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "VB.NET",
+          "url": "https://msdn.microsoft.com/en-us/library/2x7h1hfk.aspx"
+        },
+        {
+          "name": "F#",
+          "url": "http://fsharp.org/"
+        },
+        {
+          "name": "C++/CLI",
+          "url": "https://en.wikipedia.org/wiki/C%2B%2B/CLI"
+        },
+        {
+          "name": "ClojureCLR",
+          "url": "https://github.com/clojure/clojure-clr"
+        },
+        {
+          "name": "Fantom",
+          "url": "http://fantom.org/"
+        },
+        {
+          "name": "Visual COBOL",
+          "url": "http://www.microfocus.com/products/micro-focus-developer/visual_cobol/"
+        }
+      ]
+    },
+    {
+      "name": "Dynamic Language Runtime (DLR)",
+      "children": [
+        {
+          "name": "DLR Languages",
+          "children": [
+            {
+              "name": "IronPython"
+            },
+            {
+              "name": "IronRuby"
+            },
+            {
+              "name": "IronScheme"
+            },
+            {
+              "name": "IronLisp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Desktop",
+      "children": [
+        {
+          "name": "GUI",
+          "children": [
+            {
+              "name": "Windows Forms"
+            },
+            {
+              "name": "Windows Presentation Foundation(WPF)",
+              "children": [
+                {
+                  "name": "XAML"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CUI",
+          "children": [
+            {
+              "name": "Console"
+            }
+          ]
+        },
+        {
+          "name": "Windows Service"
+        }
+      ]
+    },
+    {
+      "name": "Web",
+      "children": [
+        {
+          "name": "ASP.NET",
+          "children": [
+            {
+              "name": "ASP.NET Runtime",
+              "children": [
+                {
+                  "name": "HttpHandler"
+                },
+                {
+                  "name": "HttpModule"
+                }
+              ]
+            },
+            {
+              "name": "ASP.NET Web Pages"
+            },
+            {
+              "name": "ASP.NET Web Forms",
+              "children": [
+                {
+                  "name": "Core Objects / Concepts",
+                  "children": [
+                    {
+                      "name": "Web Form"
+                    },
+                    {
+                      "name": "Web Controls"
+                    },
+                    {
+                      "name": "Postback"
+                    },
+                    {
+                      "name": "Session"
+                    },
+                    {
+                      "name": "View State"
+                    }
+                  ]
+                },
+                {
+                  "name": "Ajax Control Toolkit"
+                }
+              ]
+            },
+            {
+              "name": "ASP.NET MVC",
+              "children": [
+                {
+                  "name": "MVC",
+                  "children": [
+                    {
+                      "name": "Model"
+                    },
+                    {
+                      "name": "View"
+                    },
+                    {
+                      "name": "Controller"
+                    }
+                  ]
+                },
+                {
+                  "name": "View Engines",
+                  "children": [
+                    {
+                      "name": "Razor"
+                    },
+                    {
+                      "name": "Web Forms"
+                    },
+                    {
+                      "name": "Custom"
+                    }
+                  ]
+                },
+                {
+                  "name": "Core Objects / Concepts",
+                  "children": [
+                    {
+                      "name": "Routing"
+                    },
+                    {
+                      "name": "Controller"
+                    },
+                    {
+                      "name": "Action"
+                    },
+                    {
+                      "name": "Filter"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Silverlight"
+        },
+        {
+          "name": "SharePoint"
+        },
+        {
+          "name": "IIS"
+        }
+      ]
+    },
+    {
+      "name": "SOA",
+      "children": [
+        {
+          "name": "ASP.NET Web API",
+          "children": [
+            {
+              "name": "REST (Representational State Transfer)"
+            },
+            {
+              "name": "CRUD",
+              "children": [
+                {
+                  "name": "CREATE: POST"
+                },
+                {
+                  "name": "RETRIEVE: GET"
+                },
+                {
+                  "name": "UPDATE: PUT"
+                },
+                {
+                  "name": "DELETE: DELETE"
+                }
+              ]
+            },
+            {
+              "name": "Consumers",
+              "children": [
+                {
+                  "name": "HttpClient"
+                },
+                {
+                  "name": "RestSharp"
+                }
+              ]
+            },
+            {
+              "name": "Media Formatters",
+              "children": [
+                {
+                  "name": "XML"
+                },
+                {
+                  "name": "JSON"
+                },
+                {
+                  "name": "BSON"
+                },
+                {
+                  "name": "Custom"
+                }
+              ]
+            },
+            {
+              "name": "Core Concepts",
+              "children": [
+                {
+                  "name": "By Convention"
+                },
+                {
+                  "name": "Routing"
+                },
+                {
+                  "name": "Content Negotiation"
+                },
+                {
+                  "name": "Model Validation"
+                },
+                {
+                  "name": "Model Binding"
+                },
+                {
+                  "name": "Hosting"
+                }
+              ]
+            },
+            {
+              "name": "Core Objects",
+              "children": [
+                {
+                  "name": "Api Controller"
+                },
+                {
+                  "name": "Action"
+                },
+                {
+                  "name": "HTTP Message Handler"
+                },
+                {
+                  "name": "Filter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ASP.NET Web Services",
+          "children": [
+            {
+              "name": "Core Objects",
+              "children": [
+                {
+                  "name": "WebService"
+                },
+                {
+                  "name": "WebMethod"
+                }
+              ]
+            },
+            {
+              "name": "File Types",
+              "children": [
+                {
+                  "name": "XML (Extensible Markup Language)"
+                },
+                {
+                  "name": "SOAP (Simple Object Access Protocol)"
+                },
+                {
+                  "name": "WSDL (Web Services Description Language)"
+                },
+                {
+                  "name": "UDDI (Universal Description, Discovery, and Integration)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Windows Communication Foundation (WCF)",
+          "children": [
+            {
+              "name": "ABC",
+              "children": [
+                {
+                  "name": "Address"
+                },
+                {
+                  "name": "Binding"
+                },
+                {
+                  "name": "Contract"
+                }
+              ]
+            },
+            {
+              "name": "Bindings",
+              "children": [
+                {
+                  "name": "BasicHttpBinding"
+                },
+                {
+                  "name": "WsHttpBinding"
+                },
+                {
+                  "name": "WsDualHttpBinding"
+                },
+                {
+                  "name": "WsFederationHttpBinding"
+                },
+                {
+                  "name": "NetNamedPipeBinding"
+                },
+                {
+                  "name": "NetTcpBinding"
+                },
+                {
+                  "name": "NetPeerTcpBinding"
+                },
+                {
+                  "name": "NetMsmqBinding"
+                }
+              ]
+            },
+            {
+              "name": "Contrats",
+              "children": [
+                {
+                  "name": "Data Contract"
+                },
+                {
+                  "name": "Service Contract"
+                },
+                {
+                  "name": "Operation Contract"
+                },
+                {
+                  "name": "Message Contract"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AppFabric",
+          "url": "https://en.wikipedia.org/wiki/AppFabric",
+          "children": [
+            {
+              "name": "Persistence"
+            },
+            {
+              "name": "Hosting"
+            },
+            {
+              "name": "Monitoring"
+            },
+            {
+              "name": "Caching"
+            }
+          ]
+        },
+        {
+          "name": ".NET Remoting"
+        }
+      ]
+    },
+    {
+      "name": "Open Web Interface for .NET (OWIN)",
+      "url": "http://owin.org/",
+      "children": [
+        {
+          "name": "SignalR"
+        },
+        {
+          "name": "Nancy"
+        },
+        {
+          "name": "Katana"
+        }
+      ]
+    },
+    {
+      "name": "SDKs",
+      "children": [
+        {
+          "name": "Windows Workflow Foundation (WWF)",
+          "url": "https://msdn.microsoft.com/en-us/vstudio/jj684582.aspx"
+        },
+        {
+          "name": "Managed Extensibility Framework (MEF)",
+          "url": "https://msdn.microsoft.com/en-us/library/dd460648(v=vs.110).aspx"
+        },
+        {
+          "name": "Reactive Extensions (Rx)",
+          "url": "https://github.com/Reactive-Extensions"
+        },
+        {
+          "name": "Enterprise Library ;-)"
+        }
+      ]
+    },
+    {
+      "name": "Development",
+      "children": [
+        {
+          "name": "Visual Studio",
+          "url": "https://www.visualstudio.com/"
+        },
+        {
+          "name": "Visual Studio Online",
+          "url": "https://www.visualstudio.com/en-us/products/what-is-visual-studio-online-vs.aspx"
+        },
+        {
+          "name": "Visual Studio Code",
+          "url": "https://code.visualstudio.com/"
+        },
+        {
+          "name": "Blend",
+          "url": "https://msdn.microsoft.com/en-us/library/jj171012.aspx"
+        },
+        {
+          "name": "LightSwitch",
+          "url": "https://msdn.microsoft.com/en-us/library/lightswitch.aspx"
+        },
+        {
+          "name": "MonoDevelop",
+          "url": "http://www.monodevelop.com/"
+        },
+        {
+          "name": "SharpDevelop",
+          "url": "http://www.icsharpcode.net/OpenSource/SD/Default.aspx"
+        }
+      ]
+    },
+    {
+      "name": "Platforms",
+      "children": [
+        {
+          "name": "Windows Runtime (WinRT)",
+          "url": "https://en.wikipedia.org/wiki/Windows_Runtime"
+        },
+        {
+          "name": "Xamarin",
+          "url": "http://xamarin.com/"
+        },
+        {
+          "name": "Universal Apps",
+          "url": "https://dev.windows.com/en-us/develop/build-apps-shared-code",
+          "children": [
+            {
+              "name": "WinJS"
+            }
+          ]
+        },
+        {
+          "name": ".NET Native",
+          "url": "https://msdn.microsoft.com/en-us/vstudio/dotnetnative.aspx"
+        },
+        {
+          "name": "Windows Phone SDK"
+        },
+        {
+          "name": "Azure",
+          "url": "https://azure.microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "Productivity",
+      "children": [
+        {
+          "name": "Team Foundation Server (TFS)",
+          "url": "https://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx",
+          "children": [
+            {
+              "name": "Product Backlog Item"
+            },
+            {
+              "name": "Task"
+            }
+          ]
+        },
+        {
+          "name": "NuGet",
+          "url": "https://www.nuget.org/"
+        },
+        {
+          "name": "Chocolatey",
+          "url": "https://chocolatey.org/"
+        },
+        {
+          "name": "PowerShell",
+          "url": "https://en.wikipedia.org/wiki/Windows_PowerShell"
+        }
+      ]
+    },
+    {
+      "name": "Build",
+      "children": [
+        {
+          "name": "MSBuild"
+        },
+        {
+          "name": "CodeDom"
+        },
+        {
+          "name": "Roslyn",
+          "url": "https://github.com/dotnet/roslyn"
+        },
+        {
+          "name": "CruiseControl.NET",
+          "url": "http://cruisecontrol.net/"
+        },
+        {
+          "name": "csc/vbc/fsc"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "children": [
+        {
+          "name": "MSTest",
+          "children": [
+            {
+              "name": "TestClass"
+            },
+            {
+              "name": "TestMethod"
+            }
+          ]
+        },
+        {
+          "name": "NUnit",
+          "url": "http://www.nunit.org/",
+          "children": [
+            {
+              "name": "TestFixture"
+            },
+            {
+              "name": "Test"
+            }
+          ]
+        },
+        {
+          "name": "Mock",
+          "children": [
+            {
+              "name": "Moq",
+              "url": "https://github.com/Moq/"
+            }
+          ]
+        },
+        {
+          "name": "Fakes"
+        },
+        {
+          "name": "Microsoft Test Manager"
+        }
+      ]
+    },
+    {
+      "name": "Deploy/Publish",
+      "children": [
+        {
+          "name": "ClickOnce"
+        },
+        {
+          "name": "Web/FTP"
+        },
+        {
+          "name": "Cloud"
+        },
+        {
+          "name": "File"
+        }
+      ]
+    },
+    {
+      "name": "Framework (Fx) Tools",
+      "children": [
+        {
+          "name": "Ildasm (MSIL Disassembler)"
+        },
+        {
+          "name": "NGen (Native Generation, Ahead-Of-Time)"
+        },
+        {
+          "name": "sn (Strong Name)"
+        },
+        {
+          "name": "gacutil"
+        },
+        {
+          "name": "FxCop",
+          "url": "https://en.wikipedia.org/wiki/FxCop"
+        }
+      ]
+    },
+    {
+      "name": "Data",
+      "url": "https://github.com/unruledboy/DatabaseStack",
+      "children": [
+        {
+          "name": "ADO.NET"
+        },
+        {
+          "name": "Object/Relationship Mapping (O/RM)",
+          "children": [
+            {
+              "name": "Entity Framework (EF)",
+              "url": "https://github.com/aspnet/EntityFramework"
+            },
+            {
+              "name": "NHinbernate",
+              "url": "http://nhibernate.info/"
+            },
+            {
+              "name": "AutoMapper",
+              "url": "http://automapper.org/"
+            }
+          ]
+        },
+        {
+          "name": "NoSQL",
+          "children": [
+            {
+              "name": "RavenDB",
+              "url": "http://ravendb.net/"
+            },
+            {
+              "name": "Azure Document DB",
+              "url": "http://azure.microsoft.com/en-us/services/documentdb/"
+            }
+          ]
+        },
+        {
+          "name": "Cache",
+          "children": [
+            {
+              "name": "NCache",
+              "url": "http://www.alachisoft.com/ncache/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Components",
+      "children": [
+        {
+          "name": "IoC",
+          "children": [
+            {
+              "name": "Autofac",
+              "url": "http://autofac.org/"
+            },
+            {
+              "name": "Unity",
+              "url": "https://github.com/unitycontainer/unity"
+            },
+            {
+              "name": "NInject",
+              "url": "http://www.ninject.org/"
+            },
+            {
+              "name": "Windsor",
+              "url": "https://github.com/castleproject/Windsor/blob/master/docs/README.md"
+            }
+          ]
+        },
+        {
+          "name": "Messaging/Queue",
+          "children": [
+            {
+              "name": "NServiceBus",
+              "url": "http://particular.net/nservicebus"
+            },
+            {
+              "name": "RabbitMQ",
+              "url": "https://www.rabbitmq.com/"
+            },
+            {
+              "name": "MassTransit",
+              "url": "http://masstransit-project.com/"
+            },
+            {
+              "name": "NetMQ",
+              "url": "https://github.com/zeromq/netmq"
+            }
+          ]
+        },
+        {
+          "name": "Schedule",
+          "children": [
+            {
+              "name": "Quartz.NET",
+              "url": "http://www.quartz-scheduler.net/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cool Stuffs",
+      "children": [
+        {
+          "name": "CodeSmith",
+          "url": "https://www.codesmithtools.com/"
+        },
+        {
+          "name": "SQL Monitor",
+          "url": "https://github.com/unruledboy/SQLMonitor"
+        },
+        {
+          "name": "WuManber",
+          "url": "https://github.com/unruledboy/wumanber"
+        },
+        {
+          "name": "Sharp Dups",
+          "url": "https://github.com/unruledboy/SharpDups"
+        },
+        {
+          "name": "Load Runner",
+          "url": "https://github.com/unruledboy/loadrunner"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1101 @@
+{
+  "name": "System Development",
+  "children": [
+    {
+      "name": "Stacks",
+      "children": [
+        {
+          "name": "Development Stack",
+          "url": "https://github.com/unruledboy/DevelopmentStack"
+        },
+        {
+          "name": "Web Front End Stack",
+          "url": "https://github.com/unruledboy/WebFrontEndStack"
+        },
+        {
+          "name": "Database Stack",
+          "url": "https://github.com/unruledboy/DatabaseStack"
+        },
+        {
+          "name": ".NET Stack",
+          "url": "https://github.com/unruledboy/DotNetStack"
+        }
+      ]
+    },
+    {
+      "name": "Basics",
+      "children": [
+        {
+          "name": "Software Development Life Cycle (SDLC)",
+          "url": "https://en.wikipedia.org/wiki/Systems_development_life_cycle",
+          "children": [
+            {
+              "name": "Initiation"
+            },
+            {
+              "name": "System Concept Development"
+            },
+            {
+              "name": "Planning"
+            },
+            {
+              "name": "Requirements Analysis"
+            },
+            {
+              "name": "Design"
+            },
+            {
+              "name": "Development"
+            },
+            {
+              "name": "Integration & Test"
+            },
+            {
+              "name": "Implementation"
+            },
+            {
+              "name": "Operations & Maintenance"
+            },
+            {
+              "name": "Disposition"
+            }
+          ]
+        },
+        {
+          "name": "Environments",
+          "children": [
+            {
+              "name": "Operation Systems (OS)",
+              "children": [
+                {
+                  "name": "Windows"
+                },
+                {
+                  "name": "Linux"
+                },
+                {
+                  "name": "Mac OS"
+                },
+                {
+                  "name": "Unix"
+                },
+                {
+                  "name": "BSD"
+                },
+                {
+                  "name": "DOS"
+                }
+              ]
+            },
+            {
+              "name": "Desktop",
+              "children": [
+                {
+                  "name": "Graphical User Interface (GUI)"
+                },
+                {
+                  "name": "Console User Interface (CUI)"
+                }
+              ]
+            },
+            {
+              "name": "Mobile",
+              "children": [
+                {
+                  "name": "Android"
+                },
+                {
+                  "name": "iOS"
+                },
+                {
+                  "name": "Windows Phone (WP)"
+                },
+                {
+                  "name": "BlackBerry"
+                },
+                {
+                  "name": "Symbian"
+                },
+                {
+                  "name": "Windows Mobile (WM)"
+                }
+              ]
+            },
+            {
+              "name": "Web",
+              "children": [
+                {
+                  "name": "Front End"
+                },
+                {
+                  "name": "Cloud",
+                  "children": [
+                    {
+                      "name": "Service Models",
+                      "children": [
+                        {
+                          "name": "System/Software as a Service (SaaS)"
+                        },
+                        {
+                          "name": "Platform as a Service (PaaS)"
+                        },
+                        {
+                          "name": "Infrastructure as a Service (IaaS)"
+                        },
+                        {
+                          "name": "Desktop as a Service (DaaS)"
+                        },
+                        {
+                          "name": "Backend as a Service (BaaS)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Types",
+                      "children": [
+                        {
+                          "name": "Private Cloud"
+                        },
+                        {
+                          "name": "Public Cloud",
+                          "children": [
+                            {
+                              "name": "Providers",
+                              "children": [
+                                {
+                                  "name": "Microsoft Azure"
+                                },
+                                {
+                                  "name": "Amazon Web Services (AWS)"
+                                },
+                                {
+                                  "name": "Google Cloud"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Hybrid Cloud"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Platforms",
+              "children": [
+                {
+                  "name": ".NET",
+                  "url": "https://github.com/unruledboy/DotNetStack"
+                },
+                {
+                  "name": "Java",
+                  "url": "https://www.java.com"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Common Concepts",
+          "children": [
+            {
+              "name": "Application Programming Interface (API)"
+            },
+            {
+              "name": "Component",
+              "children": [
+                {
+                  "name": "Library"
+                },
+                {
+                  "name": "Plug-in"
+                },
+                {
+                  "name": "Extension"
+                },
+                {
+                  "name": "Assembly"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Architecture",
+          "children": [
+            {
+              "name": "Standalone",
+              "children": [
+                {
+                  "name": "Desktop app"
+                },
+                {
+                  "name": "Mobile app"
+                }
+              ]
+            },
+            {
+              "name": "Multi Layers / n-Tiers",
+              "children": [
+                {
+                  "name": "Frontend / User Interface (UI)"
+                },
+                {
+                  "name": "Backend"
+                },
+                {
+                  "name": "Database",
+                  "url": "https://github.com/unruledboy/DatabaseStack"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Software Types",
+          "children": [
+            {
+              "name": "Open source",
+              "children": [
+                {
+                  "name": "Licenses",
+                  "children": [
+                    {
+                      "name": "GNU General Public License (GPL)"
+                    },
+                    {
+                      "name": "GNU Lesser General Public License (LGPL)"
+                    },
+                    {
+                      "name": "Apache License"
+                    },
+                    {
+                      "name": "MIT License"
+                    },
+                    {
+                      "name": "Mozilla Public License"
+                    },
+                    {
+                      "name": "Microsoft Public License (MS-PL)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Closed source / Freeware"
+            },
+            {
+              "name": "Commercial"
+            }
+          ]
+        },
+        {
+          "name": "Methodologies",
+          "children": [
+            {
+              "name": "Waterfall"
+            },
+            {
+              "name": "Agile",
+              "children": [
+                {
+                  "name": "Scrum",
+                  "children": [
+                    {
+                      "name": "Daily Scrum (Standup)"
+                    },
+                    {
+                      "name": "Backlog"
+                    },
+                    {
+                      "name": "Sprint"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Standards",
+          "children": [
+            {
+              "name": "Coding Standard"
+            },
+            {
+              "name": "Documentation Standard"
+            },
+            {
+              "name": "Release Standard"
+            }
+          ]
+        },
+        {
+          "name": "Protocols",
+          "children": [
+            {
+              "name": "HTTP"
+            }
+          ]
+        },
+        {
+          "name": "Formats",
+          "children": [
+            {
+              "name": "XML"
+            },
+            {
+              "name": "JSON"
+            },
+            {
+              "name": "MIME"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Project / Planning",
+      "children": [
+        {
+          "name": "Target",
+          "children": [
+            {
+              "name": "Resource"
+            },
+            {
+              "name": "Time"
+            }
+          ]
+        },
+        {
+          "name": "Tools",
+          "children": [
+            {
+              "name": "Microsoft Project"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Analysis",
+      "children": [
+        {
+          "name": "Methodologies",
+          "children": [
+            {
+              "name": "Object Oriented Analysis (OOA)"
+            }
+          ]
+        },
+        {
+          "name": "Steps",
+          "children": [
+            {
+              "name": "Scope Defintion"
+            },
+            {
+              "name": "Problem Analsysis"
+            },
+            {
+              "name": "Requirement Analysis"
+            },
+            {
+              "name": "Logical Design"
+            },
+            {
+              "name": "Decision Analysis"
+            }
+          ]
+        },
+        {
+          "name": "Target",
+          "children": [
+            {
+              "name": "Feasibility"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Documentation",
+      "children": [
+        {
+          "name": "Specifications",
+          "children": [
+            {
+              "name": "Software Requirement Specification (SRS)"
+            },
+            {
+              "name": "Software Architecture Description"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Design / Modeling",
+      "children": [
+        {
+          "name": "Primitives",
+          "children": [
+            {
+              "name": "Wireframe",
+              "children": [
+                {
+                  "name": "Functional skeleton design"
+                }
+              ]
+            },
+            {
+              "name": "Mockup",
+              "children": [
+                {
+                  "name": "GUI design"
+                }
+              ]
+            },
+            {
+              "name": "Proof of Concept (POC)",
+              "children": [
+                {
+                  "name": "Initial functional R&D"
+                }
+              ]
+            },
+            {
+              "name": "Prototype",
+              "children": [
+                {
+                  "name": "Minimal functioning design"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Concepts",
+          "children": [
+            {
+              "name": "Object Oriented Programming (OOP)"
+            },
+            {
+              "name": "Object Oriented Design (OOD)"
+            },
+            {
+              "name": "Complex Design"
+            },
+            {
+              "name": "Simplistic Design"
+            }
+          ]
+        },
+        {
+          "name": "Thoughts",
+          "children": [
+            {
+              "name": "Don't Repeat Yourself (DRY)"
+            },
+            {
+              "name": "Keep It Simple Stupid (KISS)"
+            },
+            {
+              "name": "You Aren't Gonna Need It (YAGNI)"
+            }
+          ]
+        },
+        {
+          "name": "S.O.L.I.D.C.L.",
+          "children": [
+            {
+              "name": "单一职责原则 Single Responsibility Principle (SRP)"
+            },
+            {
+              "name": "开闭原则 Open-Closed Principle (OCP)"
+            },
+            {
+              "name": "里氏代换原则 Liskov Subsistitution Principle (LSP)"
+            },
+            {
+              "name": "接口隔离原则 Interface Segration Principle (ISP)"
+            },
+            {
+              "name": "依赖倒转原则 Dependency Inversion Principle (DIP)"
+            },
+            {
+              "name": "合成复用原则 (Composite Reuse Principle, CRP)"
+            },
+            {
+              "name": "迪米特法则 (Law of Demeter, LoD)"
+            }
+          ]
+        },
+        {
+          "name": "Design Patterns",
+          "url": "https://github.com/quanke/design-pattern-java",
+          "children": [
+            {
+              "name": "GoF 23",
+              "children": [
+                {
+                  "name": "创建型模式(Creational Pattern)",
+                  "children": [
+                    {
+                      "name": "单例模式(Singleton Pattern)"
+                    },
+                    {
+                      "name": "抽象工厂模式(Abstract Factory Pattern)"
+                    },
+                    {
+                      "name": "建造者模式(Builder Pattern)"
+                    },
+                    {
+                      "name": "工厂模式(Factory Pattern)"
+                    },
+                    {
+                      "name": "原型模式(Prototype Pattern)"
+                    }
+                  ]
+                },
+                {
+                  "name": "结构型模式(Structural Pattern)",
+                  "children": [
+                    {
+                      "name": "适配器模式(Adapter Pattern)"
+                    },
+                    {
+                      "name": "桥接模式(Bridge Pattern)"
+                    },
+                    {
+                      "name": "装饰模式(Decorator Pattern)"
+                    },
+                    {
+                      "name": "组合模式(Composite Pattern)"
+                    },
+                    {
+                      "name": "外观模式(Facade Pattern)"
+                    },
+                    {
+                      "name": "享元模式(Flyweight Pattern)"
+                    },
+                    {
+                      "name": "代理模式(Proxy Pattern)"
+                    }
+                  ]
+                },
+                {
+                  "name": "行为型模式(Behavioral Pattern)",
+                  "children": [
+                    {
+                      "name": "模版方法模式(Template Method Pattern)"
+                    },
+                    {
+                      "name": "命令模式(Command Pattern)"
+                    },
+                    {
+                      "name": "迭代器模式(Iterator Pattern)"
+                    },
+                    {
+                      "name": "观察者模式(Observer Pattern)"
+                    },
+                    {
+                      "name": "中介者模式(Mediator Pattern)"
+                    },
+                    {
+                      "name": "备忘录模式(Memento Pattern)"
+                    },
+                    {
+                      "name": "解释器模式(Interpreter Pattern)"
+                    },
+                    {
+                      "name": "状态模式(State Pattern)"
+                    },
+                    {
+                      "name": "策略模式(Strategy Pattern)"
+                    },
+                    {
+                      "name": "责任链模式(Chain of Responsibility Pattern)"
+                    },
+                    {
+                      "name": "访问者模式(Visitor Pattern)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tools",
+          "children": [
+            {
+              "name": "Functional",
+              "children": [
+                {
+                  "name": "Visio"
+                },
+                {
+                  "name": "UML",
+                  "children": [
+                    {
+                      "name": "Rational Rose"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Database",
+              "children": [
+                {
+                  "name": "ER Studio"
+                },
+                {
+                  "name": "ERwin"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Development",
+      "children": [
+        {
+          "name": "Concepts",
+          "children": [
+            {
+              "name": "Zero Bug Bounce (ZBB)"
+            },
+            {
+              "name": "MVP (Minimum Viable Product)",
+              "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+            }
+          ]
+        },
+        {
+          "name": "Development",
+          "children": [
+            {
+              "name": "Integrated Development Environment (IDE)"
+            },
+            {
+              "name": "Retrofit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quality",
+      "children": [
+        {
+          "name": "Code Review / Peer Review",
+          "children": [
+            {
+              "name": "Formal"
+            },
+            {
+              "name": "Lightweight",
+              "children": [
+                {
+                  "name": "Over-the-shoulder"
+                },
+                {
+                  "name": "Email pass-around"
+                },
+                {
+                  "name": "Pair programming"
+                },
+                {
+                  "name": "Tool-assisted"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Quality Measurement",
+          "url": "https://en.wikipedia.org/wiki/Software_quality",
+          "children": [
+            {
+              "name": "Robustness"
+            },
+            {
+              "name": "Efficiency"
+            },
+            {
+              "name": "Reliability",
+              "children": [
+                {
+                  "name": "Correctness"
+                },
+                {
+                  "name": "Availability"
+                }
+              ]
+            },
+            {
+              "name": "Security"
+            },
+            {
+              "name": "Adequacy"
+            },
+            {
+              "name": "Maintainability"
+            },
+            {
+              "name": "Learnability"
+            },
+            {
+              "name": "Readability"
+            },
+            {
+              "name": "Extensibility"
+            },
+            {
+              "name": "Testability"
+            },
+            {
+              "name": "Portability"
+            },
+            {
+              "name": "Usability"
+            }
+          ]
+        },
+        {
+          "name": "Fault tolerance",
+          "children": [
+            {
+              "name": "Fail-fast",
+              "url": "https://en.wikipedia.org/wiki/Fail-fast"
+            },
+            {
+              "name": "Fail-safe"
+            },
+            {
+              "name": "Fail-secure"
+            }
+          ]
+        },
+        {
+          "name": "User Experience (UX)"
+        },
+        {
+          "name": "Security",
+          "children": [
+            {
+              "name": "SSL"
+            },
+            {
+              "name": "Authentication"
+            },
+            {
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Management",
+      "children": [
+        {
+          "name": "Source Code Control",
+          "children": [
+            {
+              "name": "Basics",
+              "children": [
+                {
+                  "name": "Team Foundation Server (TFS)"
+                },
+                {
+                  "name": "Git"
+                },
+                {
+                  "name": "Subversion (SVN)"
+                },
+                {
+                  "name": "Concurrent Versions System (CVS)"
+                },
+                {
+                  "name": "Mercurial"
+                },
+                {
+                  "name": "Visual Source Safe (VSS)"
+                }
+              ]
+            },
+            {
+              "name": "Cloud Hosted",
+              "children": [
+                {
+                  "name": "GitHub",
+                  "url": "https://github.com/"
+                },
+                {
+                  "name": "Bitbucket",
+                  "url": "https://bitbucket.org/"
+                },
+                {
+                  "name": "CodePlex(Archived)",
+                  "url": "http://www.codeplex.com/"
+                },
+                {
+                  "name": "SourceForge",
+                  "url": "https://sourceforge.net/"
+                },
+                {
+                  "name": "GitLab",
+                  "url": "https://about.gitlab.com/"
+                },
+                {
+                  "name": "Gitee",
+                  "url": "https://gitee.com/"
+                },
+                {
+                  "name":"CODING",
+                  "url":"https://coding.net/"
+                },
+                {
+                  "name": "Azure DevOps"
+                }
+              ]
+            },
+            {
+              "name": "Escrow"
+            }
+          ]
+        },
+        {
+          "name": "Bug",
+          "children": [
+            {
+              "name": "JIRA",
+              "url": "https://www.atlassian.com/software/jira"
+            },
+            {
+              "name": "Bugzilla",
+              "url": "https://www.bugzilla.org/"
+            }
+          ]
+        },
+        {
+          "name": "Documents",
+          "children": [
+            {
+              "name": "Confluence"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Build",
+      "children": [
+        {
+          "name": "Manual Compilation"
+        },
+        {
+          "name": "Build Automation",
+          "children": [
+            {
+              "name": "Daily Build"
+            },
+            {
+              "name": "Nightly Build"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "children": [
+        {
+          "name": "Concepts",
+          "children": [
+            {
+              "name": "Continuous Integration (CI)"
+            },
+            {
+              "name": "Dry Run"
+            }
+          ]
+        },
+        {
+          "name": "Integration Tools",
+          "children": [
+            {
+              "name": "Team City"
+            }
+          ]
+        },
+        {
+          "name": "Testing Levels",
+          "children": [
+            {
+              "name": "Unit Testing"
+            },
+            {
+              "name": "Integration Test",
+              "children": [
+                {
+                  "name": "Big bang"
+                },
+                {
+                  "name": "Top-down"
+                },
+                {
+                  "name": "Bottom-up"
+                },
+                {
+                  "name": "Sandwich"
+                }
+              ]
+            },
+            {
+              "name": "Performance Testing",
+              "children": [
+                {
+                  "name": "Load Testing"
+                },
+                {
+                  "name": "Stress Testing"
+                },
+                {
+                  "name": "Spike Testing"
+                },
+                {
+                  "name": "Configuration Testing"
+                }
+              ]
+            },
+            {
+              "name": "Acceptance Testing",
+              "children": [
+                {
+                  "name": "User Acceptance Testing (UAT)"
+                },
+                {
+                  "name": "Operational Acceptance Testing"
+                }
+              ]
+            },
+            {
+              "name": "System Testing"
+            }
+          ]
+        },
+        {
+          "name": "Testing Methods (the box approach)",
+          "children": [
+            {
+              "name": "White-box Testing / Clear-box Testing / Glass-box Testing",
+              "children": [
+                {
+                  "name": "Unit Testing"
+                },
+                {
+                  "name": "Integration Testing"
+                },
+                {
+                  "name": "Regression Testing"
+                }
+              ]
+            },
+            {
+              "name": "Black-box Testing",
+              "children": [
+                {
+                  "name": "Smoke Testing"
+                },
+                {
+                  "name": "Sanity Testing"
+                },
+                {
+                  "name": "Regression Testing"
+                },
+                {
+                  "name": "Usability Testing"
+                }
+              ]
+            },
+            {
+              "name": "Gray-box Testing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deployment / Release / Rollout",
+      "children": [
+        {
+          "name": "Concepts",
+          "children": [
+            {
+              "name": "Release Management"
+            },
+            {
+              "name": "Continuous Deployment (CD)"
+            }
+          ]
+        },
+        {
+          "name": "Tools",
+          "children": [
+            {
+              "name": "Octopus Deploy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maintenance"
+    },
+    {
+      "name": "Troubleshooting",
+      "children": [
+        {
+          "name": "Raygun",
+          "url": "https://raygun.io"
+        }
+      ]
+    },
+    {
+      "name": "Learning",
+      "children": [
+        {
+          "name": "Pluralsight",
+          "url": "http://www.pluralsight.com/"
+        },
+        {
+          "name": "Lynda",
+          "url": "http://www.lynda.com/"
+        },
+        {
+          "name": "Coursera",
+          "url": "https://www.coursera.org/"
+        },
+        {
+          "name": "open2study",
+          "url": "https://www.open2study.com/"
+        },
+        {
+          "name": "iTunes College"
+        }
+      ]
+    }
+  ]
+}
