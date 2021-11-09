@@ -311,6 +311,9 @@
             },
             {
               "name": ".NET 5(2020-09-14~)"
+            },
+            {
+              "name": ".NET 6(2021-11-09~)"
             }
           ]
         },
@@ -833,7 +836,7 @@
               ]
             },
             {
-              "name": "9.0(2020.11/.NET 5)",
+              "name": "9.0(2020.11/.NET 5/Visual Studio 2019 v16.0)",
               "children": [
                 {
                   "name": "Records"
@@ -882,6 +885,53 @@
                 },
                 {
                   "name": "New features for partial methods"
+                }
+              ]
+            },
+            {
+              "name": "10.0(2021.11/.NET 6/Visual Studio 2022 v17.0.0)",
+              "children": [
+                {
+                  "name": "Record structs"
+                },
+                {
+                  "name": "Improvements of structure types"
+                },
+                {
+                  "name": "Interpolated string handlers"
+                },
+                {
+                  "name": "global using directives"
+                },
+                {
+                  "name": "File-scoped namespace declaration"
+                },
+                {
+                  "name": "Extended property patterns"
+                },
+                {
+                  "name": "Improvements on lambda expressions"
+                },
+                {
+                  "name": "Allow const interpolated strings"
+                },
+                {
+                  "name": "Record types can seal ToString()"
+                },
+                {
+                  "name": "Improved definite assignment"
+                },
+                {
+                  "name": "Allow both assignment and declaration in the same deconstruction"
+                },
+                {
+                  "name": "Allow AsyncMethodBuilder attribute on methods"
+                },
+                {
+                  "name": "CallerArgumentExpression attribute"
+                },
+                {
+                  "name": "Enhanced #line pragma"
                 }
               ]
             }
